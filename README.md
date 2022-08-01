@@ -1,5 +1,7 @@
 # aws-vault-prompt
 
+A zsh prompt for 99designs/aws-vault to understand what the active AWS session is and when it expires.
+
 ## Example zsh Config
 
 ```sh
