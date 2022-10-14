@@ -20,8 +20,8 @@ All environments have to be golang format strings. You can use the following pla
 Make sure to place these lines after: `source $ZSH/oh-my-zsh.sh`
 
 ```sh
-export AWS_VAULT_PROMPT="$fg_bold[blue]aws:($fg_bold[cyan]%[1]s$fg_bold[blue])$reset_color "
-export AWS_VAULT_PROMPT_EXPIRING_SOON="$fg_bold[blue]aws:($fg_bold[yellow]%[1]s ⏱  %[3]dm$fg_bold[blue])$reset_color "
-export AWS_VAULT_PROMPT_EXPIRED="$fg_bold[blue]aws:($fg_bold[red]%[1]s ⚠️  $fg_bold[blue])$reset_color "
+export AWS_VAULT_TERM_PROMPT="$fg_bold[blue]aws:($fg_bold[cyan]%[1]s$fg_bold[blue])$reset_color "
+export AWS_VAULT_TERM_PROMPT_EXPIRING_SOON="$fg_bold[blue]aws:($fg_bold[yellow]%[1]s ⏱  %[3]dm$fg_bold[blue])$reset_color "
+export AWS_VAULT_TERM_PROMPT_EXPIRED="$fg_bold[blue]aws:($fg_bold[red]%[1]s ⚠️  $fg_bold[blue])$reset_color "
 PROMPT=$PROMPT'$(aws-vault-prompt)'
 ```

@@ -44,8 +44,8 @@ func getConfiguration() Configuration {
 		vault:              os.Getenv("AWS_VAULT"),
 		expiration:         os.Getenv("AWS_SESSION_EXPIRATION"),
 		region:             os.Getenv("AWS_REGION"),
-		prompt:             os.Getenv("AWS_VAULT_PROMPT"),
-		promptExpiringSoon: os.Getenv("AWS_VAULT_PROMPT_EXPIRING_SOON"),
-		promptExpired:      os.Getenv("AWS_VAULT_PROMPT_EXPIRED"),
+		prompt:             os.Getenv("AWS_VAULT_TERM_PROMPT"),
+		promptExpiringSoon: os.Getenv("AWS_VAULT_TERM_PROMPT_EXPIRING_SOON"),
+		promptExpired:      os.Getenv("AWS_VAULT_TERM_PROMPT_EXPIRED"),
 	}
 }
