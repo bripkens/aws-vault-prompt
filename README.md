@@ -8,7 +8,7 @@ Download the latest release from the [releases page](https://github.com/bripkens
 
 ## Configuration
 
-The prompt is configured with the help of the `AWS_VAULT_PROMPT`, `AWS_VAULT_PROMPT_EXPIRING_SOON` and `AWS_VAULT_PROMPT_EXPIRED` environment variables.
+The prompt is configured with the help of the `AWS_VAULT_TERM_PROMPT`, `AWS_VAULT_TERM_PROMPT_EXPIRING_SOON` and `AWS_VAULT_TERM_PROMPT_EXPIRED` environment variables.
 All environments have to be golang format strings. You can use the following placeholders:
 
  - `%[1]s`: Name of the AWS vault
